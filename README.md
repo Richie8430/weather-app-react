@@ -1,12 +1,40 @@
-# React + Vite
+Weather App
+A simple React application that fetches and displays weather data for a given city using the OpenWeatherMap API.
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Search for weather by city name
+Displays temperature, humidity, wind speed, and weather icon
+Responsive design with custom icons
+Project overview
+<img width="834" height="888" alt="image" src="https://github.com/user-attachments/assets/4bd8ba13-1f79-4cac-b1a8-49f8b0cd38f2" />
 
-Currently, two official plugins are available:
+Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clone the repository:git clone <repository-url>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:npm install
+
+
+Create a .env file in the root directory and add your OpenWeatherMap API key:VITE_APP_ID=your_api_key_here
+
+
+Start the development server:npm run dev
+
+
+
+Usage
+
+Enter a city name in the search bar and click the search icon.
+View the weather details, including temperature, humidity, and wind speed.
+
+Dependencies
+
+React
+Vite
+OpenWeatherMap API
+
+Notes
+
+Ensure your API key is valid and active. Check OpenWeatherMap FAQ for troubleshooting.
+API keys should be kept secure and not exposed in client-side code for production.
